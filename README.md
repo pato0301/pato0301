@@ -43,14 +43,28 @@ Here are some of the languages and tools I work with:
 
 For more details, check out the [project repository](https://github.com/pato0301/sparkify_capstone_udacity).
 
-<!-- 
-### Project 2 Name
+### Starbucks Rewards Program Analysis
 
-- **Description:** A brief description of what the project does.
-- **Technologies:** List of technologies used.
-- **Highlights:** Key features or highlights of the project.
+- **Description:** This project involves analyzing simulated data from the Starbucks rewards mobile app to understand customer behavior. Starbucks sends various offers through the app, ranging from advertisements to actual promotions like discounts or BOGO (buy one get one free). The task was to combine transaction, demographic, and offer data to determine which demographic groups respond best to different offer types. The data set used is a simplified version of the real Starbucks app, focusing on a single product instead of the actual variety offered by Starbucks.
+- **Technologies:** Python, Jupyter Notebook (Anaconda), Pandas, NumPy, Math, JSON, Matplotlib, Seaborn, Scikit-learn, TensorFlow, Keras.
+- **Highlights:**
+  - **Data Analysis:** Integrated and analyzed transaction, demographic, and offer data to predict which offers generate deeper customer engagement.
+  - **Problem Statement:** Aimed to predict which purchase offers would lead to higher customer engagement and usage of promotions.
+  - **Implementation:** Utilized a combination of data processing and machine learning techniques to build a predictive model.
+  - **File Descriptions:**
+    - `Starbucks_Capstone_notebook.ipynb`: The code notebook with the full analysis.
+    - `Starbucks Capstone Project Proposal.pdf`: The project proposal document.
+    - `Data/`: Directory containing data files:
+      - `Profile.json`: Customer profile data.
+      - `Portfolio.json`: Offer portfolio data.
+      - `Transcript.json`: Transaction and offer response data.
+      - `Data.csv`: Cleaned data with combined information from the above JSON files.
 
-### Project 3 Name
+You can view the full analysis in the [Medium post](#).
+
+For more details, check out the [project repository](#).
+
+<!-- ### Project 3 Name
 
 - **Description:** A brief description of what the project does.
 - **Technologies:** List of technologies used.
