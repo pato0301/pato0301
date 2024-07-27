@@ -29,12 +29,21 @@ Here are some of the languages and tools I work with:
 
 ## Showcase Projects
 
-<!-- ### Project 1 Name
+### Predicting User Churn for Sparkify
 
-- **Description:** A brief description of what the project does.
-- **Technologies:** List of technologies used.
-- **Highlights:** Key features or highlights of the project.
+- **Description:** This project focuses on building a supervised learning classification model to predict user churn for a music streaming service called Sparkify. By analyzing time-series data, the goal is to identify users likely to cancel their subscription, thereby enabling the service to take preventive measures.
+- **Technologies:** Python, Spark Framework (version 2.4.4), Pandas, NumPy, PySpark, Plotly, OS, DateTime, Seaborn.
+- **Highlights:** 
+  - **Data Exploration and Cleaning:** Loaded and cleaned the dataset, removing rows with no user ID and converting timestamps to a human-readable format.
+  - **Feature Engineering:** Created 8 features for the model to improve prediction accuracy.
+  - **Modeling:** Compared three models—Random Forest (RF), Gradient Boosted Trees (GBM), and Supported Vector Machine (SVM). Selected the RF model after cross-validation and grid search fine-tuning.
+  - **Performance:** Achieved an accuracy of about 82% and an F1 score of 78%, showing a 20% improvement over the baseline model.
+  - **Scalability:** Designed the code using the Spark Framework to handle larger datasets with ease, allowing for easy refactoring and deployment on clusters.
+  - **Improvement Potential:** Highlighted potential improvements by considering more features, domain knowledge, and larger sample sizes for better performance.
 
+For more details, check out the [project repository](https://github.com/pato0301/sparkify_capstone_udacity).
+
+<!-- 
 ### Project 2 Name
 
 - **Description:** A brief description of what the project does.
